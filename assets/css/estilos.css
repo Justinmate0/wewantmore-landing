@@ -134,3 +134,5 @@ body{
 /* Ajuste: quitar doble borde y desborde de los campos con el CSS real de Brevo */
 .formulario-brevo .entry__field{border:0;background:none;box-shadow:none;padding:0;margin:0}
 .formulario-brevo .input{box-sizing:border-box;max-width:100%;margin:.35rem 0 0}
+.formulario-brevo select.input{height:auto;line-height:1.4;padding:.6rem .75rem}
+.formulario-brevo .entry__field:focus-within{box-shadow:none;outline:0}
