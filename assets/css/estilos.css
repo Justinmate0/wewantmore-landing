@@ -131,3 +131,6 @@ body{
 .formulario-brevo .entry__specification{display:block; margin-top:.35rem;}
 .formulario-brevo .sib-form-message-panel__text{display:flex; gap:.5rem; align-items:center; padding:.75rem 1rem;}
 .formulario-brevo .sib-notification__icon{width:20px; height:20px; fill:currentColor; flex:none;}
+/* Ajuste: quitar doble borde y desborde de los campos con el CSS real de Brevo */
+.formulario-brevo .entry__field{border:0;background:none;box-shadow:none;padding:0;margin:0}
+.formulario-brevo .input{box-sizing:border-box;max-width:100%;margin:.35rem 0 0}
